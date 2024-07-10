@@ -1,0 +1,23 @@
+{
+  "name": "Shiny App Template",
+  "description": "A simple Shiny application template with text input and plot output.",
+  "version": "1.0.0",
+  "main": "app.R",
+  "author": {
+    "name": "Votre Nom",
+    "email": "votre.email@example.com"
+  },
+  "dependencies": {
+    "R": ">= 3.5.0",
+    "shiny": ">= 1.6.0",
+    "ggplot2": ">= 3.3.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-repo/shiny-app-template"
+  },
+  "scripts": {
+    "start": "R -e 'shiny::runApp()'"
+  }
+}
